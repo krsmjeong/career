@@ -17,7 +17,7 @@ public class HomeController  {
 	
 	@GetMapping("/company/welcome")
 	public void welcome() {
-		log.info("welcome() 호출됐어요");
+		log.info("welcome() 호출됐어요. 아.시.겠.어.요?");
 //		return "company/welcome";
 		
 		// 리턴타입이 void면 애노테이션 url 요청경로를
